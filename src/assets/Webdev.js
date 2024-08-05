@@ -1,0 +1,42 @@
+export const Webdev =[
+    {
+        question: "Which HTML element is used to define a hyperlink?",
+        option1: "<a>",
+        option2: "<link>",
+        option3: "<href>",
+        option4: "<hyperlink>",
+        ans:2,
+},
+{
+    question: "Which tag is used to create a checkbox in HTML?",
+    option1: "<checkbox>",
+    option2: "<input type='checkbox'>",
+    option3: "<check>",
+    option4: "<input type='check'>",
+    ans:1,
+},
+{ 
+    question: "Which JavaScript function is used to parse a string into a JSON object?",
+    option1: "JSON.parse()",
+    option2: "JSON.stringify()",
+    option3: "JSON.toString()",
+    option4: "JSON.convert()",
+    ans:1,
+},
+{
+    question: "What does HTML stand for?",
+    option1: "Hyper Text Markup Language",
+    option2: "Hyperlinks Text Markup Language",
+    option3: "Home Tool Markup Language",
+    option4: "Hyperlinking Text Markup Language",
+    ans:1,
+},
+{
+    question: "What is the purpose of CSS in web development?",
+    option1: "To structure content",
+    option2: "To add interactivity",
+    option3: "To style and layout web pages",
+    option4: "To manage databases",
+    ans:3,
+},
+];

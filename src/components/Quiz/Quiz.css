@@ -1,0 +1,140 @@
+.maintopics {
+    height: 25em;
+    max-width: 50em;
+    display: flex;
+    gap: 9vh;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.maintopics .links{
+    text-decoration: none;
+}
+.topics {
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 30vh;
+    width: 35vh;
+    border-radius: 15px;
+    background-color: rgba(131, 207, 234, 0.526);
+    box-shadow: 0px 0px 8px blue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.topics:hover{
+    box-shadow: 0px 0px 14px blue;
+}
+@media only screen and (max-width: 560px) {
+    .maintopics {
+        gap: 5vh;
+        margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 15px;  
+    }
+    h1{
+        font-size: 26px;
+        margin-top: -15vh;
+    }
+    .topics{
+        padding: 1px;
+        height: 27vh;
+        margin-bottom: 10px;
+    }
+}
+
+.container{
+    max-width: 460px;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: rgba(131, 207, 234, 0.526);
+    box-shadow: 0px 0px 10px blue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+@media only screen and (max-width:600px) {
+    .container{
+        padding: 10px 20px;
+        width: 300px;
+    }
+    .container h1{
+        font-size: 25px;
+    }
+    .container .question{
+        font-size: 20px;
+    }
+    .container .opt li{
+        height: 28px;
+        font-size: 16px;
+    }
+    .container .next{
+        width: 120px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .container .reset{
+        width: 120px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+.container hr{
+    height: 2px;
+    border: none;
+    background-color: #707070;
+}
+.container h2{
+    font-size: 27px;
+    font-weight: 500;
+}
+.container h1{
+    margin: auto;
+}
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 15px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container button{
+    margin: auto;
+    width: 220px;
+    height: 50px;
+    background-color: rgb(45, 45, 164);
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.container .index{
+    margin: auto;
+    font-size: 18px;
+}
+.container .correct{
+    background-color: rgba(0, 128, 0, 0.483);
+    border-color: #00d397;
+}
+.container .wrong{
+    background-color:rgba(255, 0, 0, 0.668);
+    border-color:#FF4A4A ;
+}
+.btn{
+    padding: 3px;
+    height: 30px;
+    width: 20vh;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgb(45, 45, 164);
+    color: white;
+}

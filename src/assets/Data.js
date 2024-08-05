@@ -1,0 +1,42 @@
+export const Data=[
+    {
+        question: "What is the primary purpose of a pivot table in Excel?",
+        option1: "To sort data",
+        option2: "To summarize and analyze data",
+        option3: "To create charts",
+        option4: "To filter data",
+        ans:2,
+    },
+    {
+        question: "Which of the following is an example of a data visualization tool?",
+        option1: "SQL",
+        option2: "Tableau",
+        option3: "Python",
+        option4: "Excel",
+        ans:2,
+    },
+    {
+        question: "What is a common method used to detect outliers in a dataset?",
+        option1: "Linear Regression",
+        option2: "Histogram",
+        option3: "Box Plot",
+        option4: "Correlation Matrix",
+        ans:3,
+    },
+    {
+        question: "In which type of analysis would you use the term 'mean'?",
+        option1: "Descriptive Statistics",
+        option2: "Inferential Statistics",
+        option3: "Predictive Analytics",
+        option4: "Cluster Analysis",
+        ans:1,
+    },
+    {
+        question: "Which function in Excel is used to calculate the average of a range of numbers?",
+        option1: "SUM()",
+        option2: "COUNT()",
+        option3: "AVERAGE()",
+        option4: "MEDIAN()",
+        ans:3,
+    },
+] 
